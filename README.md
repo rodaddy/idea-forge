@@ -6,7 +6,7 @@ inside whatever AI assistant you already use.
 ![Licence: PolyForm Noncommercial 1.0.0](https://img.shields.io/badge/licence-PolyForm%20Noncommercial%201.0.0-blue)
 ![Language: Markdown skills + JavaScript](https://img.shields.io/badge/language-Markdown%20skills%20%2B%20JavaScript-f7df1e)
 
-![Idea Forge: an idea goes in as talk and comes out as a finished page](docs/images/hero.jpg)
+![Idea Forge: an idea goes in as talk and comes out as a finished page](docs/how-to-images/hero.jpg)
 
 ## What it is
 
@@ -28,8 +28,6 @@ copies had to be rebuilt by hand. Version 2 ships one canonical package and
 lets the receiving AI adapt it to its own platform.
 
 ## How it works
-
-![How it works: installer.md adapts to the host, then spitball, grill, map and build](docs/images/how-it-works.jpg)
 
 The kit is folders of markdown: six skills, each a `SKILL.md` with optional
 `workflows/` and `references/`. A self-adapting `installer.md` tells the
