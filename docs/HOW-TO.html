@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Idea Forge — How To</title>
+<link rel="icon" href="data:image/png;base64,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">
+<style>
+  :root {
+    --bg:        #0E1116;
+    --surface:   #161B22;
+    --surface-2: #1C2230;
+    --border:    #2A3344;
+    --text:      #E6EAF2;
+    --muted:     #9AA7BD;
+    --dim:       #5C6B85;
+    --violet:    #8B7FF7;
+    --cyan:      #2DD4BF;
+    --amber:     #F5B547;
+    --green:     #4ADE80;
+    --red:       #F87171;
+    --radius:    14px;
+    --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif;
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background:
+      radial-gradient(1200px 600px at 80% -10%, rgba(139,127,247,0.12), transparent 60%),
+      radial-gradient(1000px 500px at -10% 10%, rgba(45,212,191,0.08), transparent 55%),
+      var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    line-height: 1.65;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 960px; margin: 0 auto; padding: 64px 24px 140px; }
+
+  header { text-align: center; margin-bottom: 12px; }
+  header h1 {
+    font-size: clamp(2.4rem, 6vw, 3.6rem);
+    line-height: 1.08;
+    margin: 0 0 10px;
+    letter-spacing: -0.03em;
+    background: linear-gradient(100deg, var(--text) 25%, var(--violet) 60%, var(--cyan));
+    -webkit-background-clip: text; background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .tagline { color: var(--muted); font-size: 1.18rem; margin: 0 auto 20px; max-width: 640px; }
+  .tags { margin: 0 0 10px; }
+  .tag {
+    font-family: var(--mono); font-size: 0.68rem; text-transform: uppercase;
+    letter-spacing: 0.06em; padding: 3px 12px; border-radius: 999px;
+    border: 1px solid rgba(139,127,247,0.4); background: rgba(139,127,247,0.08);
+    color: var(--violet); display: inline-block; margin: 2px 3px;
+    text-decoration: none; transition: border-color .15s, background .15s;
+  }
+  a.tag:hover { border-color: var(--cyan); background: rgba(45,212,191,0.12); color: var(--cyan); }
+
+  section { margin-top: 64px; scroll-margin-top: 24px; }
+  h2 {
+    font-size: 1.7rem; letter-spacing: -0.01em; margin: 0 0 16px;
+    padding-bottom: 8px; border-bottom: 1px solid var(--border);
+  }
+  h2::before { content: "▚ "; color: var(--violet); }
+  h3 { font-size: 1.2rem; margin: 26px 0 10px; }
+  p { color: var(--text); }
+  a { color: var(--cyan); }
+  .lead { font-size: 1.06rem; color: var(--muted); }
+
+  figure { margin: 26px 0; text-align: center; }
+  figure img {
+    max-width: 100%; height: auto; border-radius: var(--radius);
+    border: 1px solid var(--border);
+    box-shadow: 0 14px 50px rgba(0,0,0,0.5);
+  }
+  figcaption { color: var(--dim); font-size: 0.82rem; margin-top: 10px; font-style: italic; }
+
+  code {
+    font-family: var(--mono); font-size: 0.86em;
+    background: var(--surface-2); color: var(--cyan);
+    padding: 1px 6px; border-radius: 6px; border: 1px solid var(--border);
+  }
+  pre {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 16px 18px; overflow-x: auto;
+    font-size: 0.88rem; line-height: 1.55; text-align: left;
+  }
+  pre code { background: none; border: none; padding: 0; color: var(--text); }
+
+  /* Pipeline stage cards */
+  .stage {
+    display: grid; grid-template-columns: 64px 1fr; gap: 18px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 22px 24px;
+    margin: 22px 0;
+    position: relative;
+    scroll-margin-top: 24px;
+  }
+  .stage .num {
+    width: 52px; height: 52px; border-radius: 14px;
+    display: flex; align-items: center; justify-content: center;
+    font-family: var(--mono); font-size: 1.5rem; font-weight: 700;
+    background: linear-gradient(135deg, rgba(139,127,247,0.25), rgba(45,212,191,0.18));
+    border: 1px solid rgba(139,127,247,0.45);
+    color: var(--violet);
+  }
+  .stage h3 { margin: 2px 0 8px; }
+  .stage .skillname { font-family: var(--mono); font-size: 0.74rem; color: var(--cyan); letter-spacing: 0.04em; }
+  .stage p { color: var(--muted); margin: 8px 0 0; }
+  .stage .say {
+    margin-top: 12px; padding: 10px 14px; border-radius: 10px;
+    background: rgba(45,212,191,0.06); border: 1px solid rgba(45,212,191,0.3);
+    font-size: 0.9rem;
+  }
+  .stage .say b { color: var(--cyan); font-family: var(--mono); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.06em; }
+
+  .callout {
+    border-radius: var(--radius); padding: 16px 20px; margin: 20px 0;
+    border: 1px solid var(--border); background: var(--surface-2);
+  }
+  .callout.warn { border-color: rgba(245,181,71,0.4); background: rgba(245,181,71,0.06); }
+  .callout.key  { border-color: rgba(139,127,247,0.45); background: rgba(139,127,247,0.07); }
+  .callout .lbl { font-family: var(--mono); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--violet); display: block; margin-bottom: 4px; }
+  .callout.warn .lbl { color: var(--amber); }
+
+  table { width: 100%; border-collapse: collapse; margin: 18px 0; font-size: 0.9rem; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  th { color: var(--violet); font-family: var(--mono); font-size: 0.76rem; text-transform: uppercase; letter-spacing: 0.04em; }
+
+  ul, ol { padding-left: 22px; }
+  li { margin: 6px 0; }
+
+  details.qa {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 10px; padding: 12px 18px; margin: 10px 0;
+  }
+  details.qa summary { cursor: pointer; color: var(--cyan); font-weight: 600; }
+  .qa-answer { color: var(--muted); margin-top: 10px; }
+
+  footer { margin-top: 90px; text-align: center; color: var(--dim); font-size: 0.82rem; }
+  footer a { color: var(--dim); }
+</style>
+</head>
+<body>
+<main>
+
+  <header>
+    <h1>Idea Forge</h1>
+    <p class="tagline">Get an idea out of your head and onto a page worth showing someone — the AI listens first, sharpens second, and builds last.</p>
+    <div class="tags">
+      <a class="tag" href="#stage-spit">spitball</a>
+      <a class="tag" href="#stage-shape">shape</a>
+      <a class="tag" href="#stage-map">map</a>
+      <a class="tag" href="#stage-build">build</a>
+      <a class="tag" href="#install">install</a>
+      <a class="tag" href="#car">car mode</a>
+    </div>
+  </header>
+
+  <figure>
+    <img src="how-to-images/hero.jpg" alt="An idea leaving a head, traveling through the forge pipeline, emerging as a finished web page">
+    <figcaption>The whole trip: thought → listened to → sharpened → (mapped) → a polished page.</figcaption>
+  </figure>
+
+  <!-- ===== WHAT THIS IS ===== -->
+  <section id="what">
+    <h2>What This Is</h2>
+    <p class="lead">Idea Forge is a set of six AI skills that turn a raw idea — a business, a product, a concept you need out of your head — into a single beautiful HTML page: images generated to match, every reference linked, tagged, and shareable as one folder.</p>
+    <p>The point isn't the page. The point is that by the time the page exists, the idea has survived an interview. The AI doesn't write down your first draft; it makes you answer for it, one question at a time, and <em>then</em> lays out what you actually meant.</p>
+    <div class="callout key">
+      <span class="lbl">The one rule</span>
+      Talking is free — the AI won't research, plan, or build anything until you use action words. You control the gear shifts; it just tells you when the idea seems ready for the next one.
+    </div>
+  </section>
+
+  <!-- ===== INSTALL ===== -->
+  <section id="install">
+    <h2>Installing It (One Instruction)</h2>
+    <p class="lead">There is nothing to configure, no folders to drag, no terminal commands to run. You hand one file to your AI and it does the rest — on whatever AI you use.</p>
+
+    <div class="callout key">
+      <span class="lbl">The whole install</span>
+      Give <code>installer.md</code> to your AI — <strong>share the file, or paste its text into the chat</strong> — and say: <code>install idea forge</code>. That's it. The installer looks at what AI it's talking to and sets Idea Forge up the right way for that one, then walks you through a quick first run.
+    </div>
+
+    <p>It adapts to whatever you have:</p>
+    <ul>
+      <li><strong>A coding assistant in a terminal</strong> (Claude Code, Codex) → it installs the six skills to files on your machine and makes your ideas folder.</li>
+      <li><strong>The Claude app</strong> (web, desktop, or phone) → it builds the skill uploads for you and hands them over with the exact steps to turn them on.</li>
+      <li><strong>A ChatGPT Project or Gemini Gem</strong> → it condenses the whole pipeline into instructions you paste once.</li>
+      <li><strong>A plain chat</strong> → it loads the pipeline right into the conversation.</li>
+    </ul>
+
+    <p>Not sure how to get <code>installer.md</code> in front of your AI in the first place — iPhone, Windows, or Mac? Open <strong><code>START-HERE.md</code></strong> from this package first; it's one page of tap-by-tap steps for your device. Then come back here for how the pipeline works.</p>
+  </section>
+
+  <!-- ===== THE PIPELINE ===== -->
+  <section id="pipeline">
+    <h2>The Pipeline</h2>
+    <p class="lead">Four stages. You can invoke any one directly, but <code>idea-forge</code> conducts — it figures out where your idea is and moves it along.</p>
+
+    <div class="stage" id="stage-spit">
+      <div class="num">1</div>
+      <div>
+        <h3>Spit <span class="skillname">· spitball-session</span></h3>
+        <p>Talk the idea out, messy and unfiltered. The AI listens, reflects, maybe challenges — but touches <em>nothing</em>. No searches, no files, no "let me draft a plan real quick." Detail and excitement are not permission; only your action words are.</p>
+        <div class="say"><b>Say</b> &nbsp;"spitball session" · "let me get this out of my head" · "just listen"</div>
+      </div>
+    </div>
+    <figure>
+      <img src="how-to-images/spit.jpg" alt="A person talking freely while an AI listens with hands off all tools">
+      <figcaption>Stage 1: your job is to talk. Its job is to shut up and listen.</figcaption>
+    </figure>
+
+    <div class="stage" id="stage-shape">
+      <div class="num">2</div>
+      <div>
+        <h3>Shape <span class="skillname">· grilling / grill-me</span></h3>
+        <p>The interview. One question at a time — never a wall of ten — each with the AI's recommended answer attached. Facts it can look up, it looks up; <em>decisions</em> are yours, and it waits for each one. It ends when you both agree what the idea actually is, out loud.</p>
+        <div class="say"><b>Say</b> &nbsp;"shape this" · "grill me" · "stress-test this idea"</div>
+      </div>
+    </div>
+    <figure>
+      <img src="how-to-images/grill.jpg" alt="A rough idea being sharpened into a crystal by questions striking one at a time">
+      <figcaption>Stage 2: questions are the whetstone. Vague in, sharp out.</figcaption>
+    </figure>
+
+    <div class="stage" id="stage-map">
+      <div class="num">3</div>
+      <div>
+        <h3>Map <span class="skillname">· wayfinder · optional</span></h3>
+        <p>For the BIG ones — ideas with so many open questions that one sitting can't hold them. Wayfinder names the destination, then charts the open decisions as tickets in a map folder. Each session you resolve <em>one</em> ticket; the fog clears a patch at a time until the whole route is visible. Skip this entirely for ideas that fit in an evening.</p>
+        <div class="say"><b>Say</b> &nbsp;"map this out" · "chart a map" · "wayfinder"</div>
+      </div>
+    </div>
+    <figure>
+      <img src="how-to-images/map.jpg" alt="A foggy landscape with a destination beacon and ticket cards revealing a path">
+      <figcaption>Stage 3: you don't chart what you can't see — the map grows as the fog burns off.</figcaption>
+    </figure>
+
+    <div class="stage" id="stage-build">
+      <div class="num">4</div>
+      <div>
+        <h3>Build <span class="skillname">· idea-page</span></h3>
+        <p>The payoff. Your shaped idea becomes a single self-contained dark-mode HTML page: a hero image and section art generated to match the page's palette, every reference and competitor linked, tags for scanning your collection, open questions kept honest in their own section. It opens in your browser when it's done — and it looks like <em>this page</em>, because this page was built with the same template.</p>
+        <div class="say"><b>Say</b> &nbsp;"build the page" · "make it a page" · "publish my idea"</div>
+      </div>
+    </div>
+    <figure>
+      <img src="how-to-images/build.jpg" alt="A dark elegant web page assembling itself from images, links, and tag pills">
+      <figcaption>Stage 4: one folder, one page, zero dependencies — send it to anyone.</figcaption>
+    </figure>
+  </section>
+
+  <!-- ===== CHEAT SHEET ===== -->
+  <section id="cheatsheet">
+    <h2>Cheat Sheet</h2>
+    <table>
+      <thead><tr><th>You want to…</th><th>Say</th><th>What happens</th></tr></thead>
+      <tbody>
+        <tr><td>Start from scratch</td><td><code>I have an idea — idea forge</code></td><td>The conductor meets your idea wherever it is and runs the stages</td></tr>
+        <tr><td>Just vent an idea</td><td><code>spitball session</code></td><td>Pure listening mode; nothing gets touched until you shift gears</td></tr>
+        <tr><td>Pressure-test it</td><td><code>grill me on this</code></td><td>One-question-at-a-time interview until shared understanding</td></tr>
+        <tr><td>Tame a monster idea</td><td><code>map this out</code></td><td>Wayfinder charts tickets; one decision resolved per session</td></tr>
+        <tr><td>Get the page</td><td><code>build the page</code></td><td>Dark-mode HTML with images, refs, tags lands in <code>~/Documents/ideas/</code></td></tr>
+        <tr><td>Revise later</td><td><code>update the &lt;name&gt; page</code></td><td>Surgical edit + a dated entry in the page's Amendments log</td></tr>
+        <tr><td>Change the look</td><td><code>restyle my pages — &lt;describe it&gt;</code></td><td>Your description becomes the saved theme; new pages (and old ones, if you say so) use it</td></tr>
+        <tr><td>Come back to an idea</td><td><code>idea forge — &lt;name&gt;</code></td><td>It checks the idea's folder and resumes at the right stage</td></tr>
+        <tr><td>Bring one home from the car</td><td><code>idea forge — here's my brief: …</code></td><td>Paste the idea brief from your phone session; it resumes at the right stage</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ===== WHERE THINGS LIVE ===== -->
+  <section id="where">
+    <h2>Where Your Ideas Live</h2>
+    <p>One idea, one folder, under <code>~/Documents/ideas/</code> (it asks once on first run, then remembers):</p>
+    <pre><code>~/Documents/ideas/
+  night-market-app/
+    index.html        ← the page — open or share it
+    images/           ← its generated art (+ favicon source)
+    map/              ← wayfinder map + tickets, if the idea needed one
+  coffee-subscription/
+    index.html
+    images/</code></pre>
+    <p>Each folder is self-contained — zip it, AirDrop it, email it. The page carries its own styling and points at its images with relative paths, so it survives the trip. Related ideas cross-link to each other, so over time the folder becomes your personal idea wiki.</p>
+  </section>
+
+  <!-- ===== CAR MODE ===== -->
+  <section id="car">
+    <h2>Car Mode (The Phone App)</h2>
+    <p class="lead">Ideas don't wait for a desk. Once Idea Forge is installed on the phone app you use, the whole pipeline rides along — spit, grill, even build the page. Prefer to finish on a bigger screen? A one-message <strong>idea brief</strong> carries the idea to any other session.</p>
+    <h3>One-time setup</h3>
+    <ol>
+      <li>Install Idea Forge once, the one way it always installs: hand <code>installer.md</code> to your AI in the phone app and say <code>install idea forge</code>. If your AI account is shared between your phone and computer, it's set up in both.</li>
+    </ol>
+    <h3>The car workflow</h3>
+    <ol>
+      <li>In the car, open your AI app and say <code>spitball session</code>. Talk. It listens and keeps replies short and speakable.</li>
+      <li>Feeling sharp? Say <code>grill me</code> — same one-question-at-a-time interview, sized for voice.</li>
+      <li>Before you get out: <code>give me the brief</code>. It produces one structured message — the <strong>idea brief</strong> — with everything: the idea, the decisions, every link and name you mentioned.</li>
+      <li>Later, at the computer: copy the brief, open Idea Forge there, and say <code>idea forge — here's my brief:</code> and paste. A spitballed brief resumes at shaping; a fully shaped one gets a quick confirmation and goes straight to the page build.</li>
+    </ol>
+    <div class="callout warn">
+      <span class="lbl">Why the hand-off?</span>
+      A phone conversation and a computer session don't share memory — they're separate, even on one account. The brief IS the bridge that carries the idea across.
+    </div>
+  </section>
+
+  <!-- ===== TIPS ===== -->
+  <section id="tips">
+    <h2>Getting Good Results</h2>
+    <ul>
+      <li><strong>Don't skip the grilling.</strong> A page built from an unshaped idea is a guess in a nice suit. The interview is where the idea earns its page.</li>
+      <li><strong>Drop links while you talk.</strong> Every URL, competitor, or article you mention during spit/shape gets captured into the page's References section — receipts included, automatically.</li>
+      <li><strong>Answer the question asked.</strong> The AI brings a recommended answer to every question; disagreeing with it is often where the idea gets interesting.</li>
+      <li><strong>Let it say "this one's big."</strong> If shaping starts sprawling into dozens of branches, take the wayfinder offer — five short sessions beat one four-hour slog.</li>
+      <li><strong>Update, don't regenerate.</strong> When the idea evolves, say <em>update the page</em> — edits are surgical and the Amendments section keeps the history.</li>
+      <li><strong>Make the style yours.</strong> The dark look on this page is just the default. On first run it asks what you want — or any time later, say <em>restyle my pages: warm paper, serif, terracotta accents</em> (or whatever you like) and every page from then on wears it. The generated images follow your palette too.</li>
+    </ul>
+  </section>
+
+  <!-- ===== TROUBLESHOOTING ===== -->
+  <section id="troubleshooting">
+    <h2>Troubleshooting</h2>
+    <div class="callout key">
+      <span class="lbl">The one fix for almost everything</span>
+      If anything about the install or a first run looks off — a skill won't trigger, a step got interrupted, something seems half-done — <strong>re-share <code>installer.md</code> with your AI and say <code>continue install</code>.</strong> The installer picks up where it left off and adapts to your AI. You never re-do steps by hand.
+    </div>
+    <details class="qa">
+      <summary>Images didn't generate / the page has placeholder boxes</summary>
+      <p class="qa-answer">Some AIs make real picture files, some make crisp designed artwork instead — the installer picks the best one yours can do and records it. If a page came out with empty image spots, just tell your AI "fill the images on the &lt;name&gt; page". Artwork can take a minute or two per image.</p>
+    </details>
+    <details class="qa">
+      <summary>The skill doesn't trigger when I say the magic words</summary>
+      <p class="qa-answer">Re-share <code>installer.md</code> and say <code>continue install</code> — it re-checks the setup and finishes anything missing. You can also invoke a stage by name explicitly: "use the idea-page skill".</p>
+    </details>
+    <details class="qa">
+      <summary>Can I do this from a phone app?</summary>
+      <p class="qa-answer">Yes. Install Idea Forge the one way it always installs — hand <code>installer.md</code> to your AI in the phone app and say "install idea forge" — and the whole pipeline runs there. See Car Mode above.</p>
+    </details>
+    <details class="qa">
+      <summary>Where did my page go?</summary>
+      <p class="qa-answer">On a computer install, your pages live in the ideas folder you picked at setup (the default is your <code>Documents → ideas</code> folder) — every idea is its own folder with an <code>index.html</code> inside. In an app install, each page arrives as a download right in the chat. If you're not sure where yours went, ask your AI "where do my idea pages live?"</p>
+    </details>
+    <details class="qa">
+      <summary>I want the pages somewhere else</summary>
+      <p class="qa-answer">Just tell your AI "put my idea pages in &lt;folder&gt; from now on" — it updates the setting and uses the new place for every page after that.</p>
+    </details>
+  </section>
+
+  <footer>
+    Forged for you by Rico · grilling / grill-me / wayfinder adapted from
+    <a href="https://github.com/mattpocock/skills">Matt Pocock's skills</a> (MIT) ·
+    This page was built with the same <code>idea-page</code> template your ideas will use.
+  </footer>
+
+</main>
+</body>
+</html>
