@@ -35,7 +35,7 @@ standard).
 
 ## [2.0.0] - 2026-07-15 (reconstructed)
 
-The zip-delivery rebuild — the first kit built to the LI-smb-hq model: one
+The zip-delivery rebuild — the first kit built to the self-adapting package model: one
 canonical package (folders + markdown) plus a self-adapting `installer.md` that
 makes the receiving AI transform the package into whatever its host platform
 needs. This is the version the installer's `**Version:** 2.0` line names; it is
@@ -44,9 +44,9 @@ semver, and no patch release after 2.0 is evidenced anywhere in the package.
 
 ### Changed
 
-- **Deleted every parallel delivery tree.** v1 (`../LI-smb-hq/candidates/idea-forge-v1/`)
+- **Deleted every parallel delivery tree.** v1 (kept privately)
   hand-maintained `claude-app-skills/`, a `chatgpt-app/instructions.txt` port,
-  and an `install.sh`; when the Claude app demanded zips, Rico had to build them
+  and an `install.sh`; when the Claude app demanded zips, the author had to build them
   by hand. v2 has one canonical `skills/` source and the installer adapts:
   coding agent copies folders, Claude app builds the six zips itself, ChatGPT
   Project / Gemini Gem condenses the SKILL.md files itself, plain chat loads the
@@ -105,8 +105,8 @@ least one platform. Simulated passes are not device proofs.
 
 ## [1.0.0] - (undated, reconstructed)
 
-The original Idea Forge, preserved at
-`../LI-smb-hq/candidates/idea-forge-v1/` (formerly `~/Desktop/idea-forge`).
+The original Idea Forge, preserved
+in a private archive.
 Three hand-maintained delivery formats, no self-adapting installer. Recorded
 here only so the 2.0.0 lineage has a floor; **no release date is known** — the
 README describes v1 but never dates it.
